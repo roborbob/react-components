@@ -1,0 +1,14 @@
+.Clock {
+    position: relative;
+    background: rgba(0,0,0,0);
+    padding: 15px;
+    width: 160px;
+    height: 140px;
+    border-radius: 5px;
+    border: 1px solid black;
+    p {
+        width: 100%;
+        padding-bottom: 5px;
+        color: black;
+    }
+}

@@ -1,0 +1,33 @@
+.Switch {
+    position: relative;
+    background: rgba(0,0,0,0);
+    padding: 15px;
+    width: 160px;
+    height: 140px;
+    border-radius: 5px;
+    border: 1px solid black;
+    p {
+        width: 100%;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    .powerBox {
+        position: relative;
+        width: 80px;
+        height: 42px;
+        border-radius: 40px;
+        border: 1px solid white;
+        transition: 0.3s;
+        .slider {
+            position: absolute;
+            top: 2px;
+            background-color: white;
+            transition: 0.3s;
+            height: 36px;
+            width: 36px;
+            left: 2px;
+            border-radius: 50%;
+            box-shadow: 1px 1px 2px black; 
+        }
+    }
+}
